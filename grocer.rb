@@ -22,8 +22,8 @@ def apply_coupons(cart, coupons)
  cart.each do |attribute|
    attribute.each do |key, value|
      if :count[value] >= coupons[:num]
-       new_hash = "#{coupon[item]} W/COUPON"
-       
+       new_key = "#{coupon[item]} W/COUPON"
+       new_hash[new_key]
         
 end
 end 
