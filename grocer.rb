@@ -18,12 +18,9 @@ cart.each do |item_hash|
      
      
 def apply_coupons(cart, coupons)
- new_hash = {}
+ 
  cart.each do |attribute|
-   attribute.each do |key, value|
-     if :count[value] >= coupons[:num]
-       new_key = "#{coupon[item]} W/COUPON"
-       new_hash[new_key]
+   
         
 end
 end 
