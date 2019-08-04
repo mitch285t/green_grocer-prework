@@ -19,13 +19,8 @@ cart.each do |item_hash|
      
 def apply_coupons(cart, coupons)
  
- cart.each do |attribute|
    
-        
-end
-end 
-end 
-end 
+
 
 def apply_clearance(cart)
   # code here
